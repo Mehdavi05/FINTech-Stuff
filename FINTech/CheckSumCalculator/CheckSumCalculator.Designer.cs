@@ -80,7 +80,7 @@
             // 
             codeWithCKValueTitleLbl.AutoSize = true;
             codeWithCKValueTitleLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            codeWithCKValueTitleLbl.Location = new Point(12, 152);
+            codeWithCKValueTitleLbl.Location = new Point(160, 113);
             codeWithCKValueTitleLbl.Name = "codeWithCKValueTitleLbl";
             codeWithCKValueTitleLbl.Size = new Size(163, 15);
             codeWithCKValueTitleLbl.TabIndex = 4;
@@ -97,7 +97,7 @@
             // codeWithCheckSumValueLbl
             // 
             codeWithCheckSumValueLbl.AutoSize = true;
-            codeWithCheckSumValueLbl.Location = new Point(181, 152);
+            codeWithCheckSumValueLbl.Location = new Point(329, 113);
             codeWithCheckSumValueLbl.Name = "codeWithCheckSumValueLbl";
             codeWithCheckSumValueLbl.Size = new Size(0, 15);
             codeWithCheckSumValueLbl.TabIndex = 6;
@@ -116,7 +116,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(601, 189);
+            ClientSize = new Size(601, 142);
             Controls.Add(clearScreenBtn);
             Controls.Add(codeWithCheckSumValueLbl);
             Controls.Add(checkSumValueLbl);
