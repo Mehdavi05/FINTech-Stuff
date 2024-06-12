@@ -125,7 +125,10 @@
             Controls.Add(calculateCheckSumBtn);
             Controls.Add(partialCodeTextBox);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "CheckSumCalculator";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "CheckSum Calculator";
             ResumeLayout(false);
             PerformLayout();
